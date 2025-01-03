@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script type="module">
+        const api = `https://raw.githubusercontent.com/hridesh-bharati/user_api/main/api.js`;
+        const diit = async () => {
+            try {
+                const res = await fetch(api);
+                const data = await res.text();
+                console.log(data);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+        diit();
+    </script>
+</body>
+
+</html>
