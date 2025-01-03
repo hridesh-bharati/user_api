@@ -50,3 +50,4 @@ const users = [
   { id: 49, user_name: "MS Dhoni", user_about: "Cricketer and sportsman.", user_address: { street: "Ranchi", city: "Ranchi", state: "Jharkhand", zipcode: "834001", country: "India" }, user_email: "ms.dhoni@example.com", user_pic: "./img/uu.png" },
   { id: 50, user_name: "Sundar Pichai", user_about: "CEO of Google.", user_address: { street: "Mountain View", city: "California", state: "California", zipcode: "94043", country: "USA" }, user_email: "sundar.pichai@example.com", user_pic: "./img/pp.png" }
 ]
+export default users
